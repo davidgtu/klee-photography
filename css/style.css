@@ -11,29 +11,26 @@ html, body {
 	margin:0;
 	padding:0;
 	height:100%;
-
 }
 
 a:link {
   text-decoration : none;
   color : #888888;
 }
-a:active {
 
-}
 a:visited {
   text-decoration : none;
   color : #888888;
 }
+
 a:hover {
   text-decoration : none;
   color : #222222;
 }
 
-
 #menu {
-  left: 10em;
-  top: 15em;
+  left: 5em;
+  top: 5em;
   width: 150px;
   overflow: fixed;
   margin: 60px 0 0px 0px;
@@ -45,6 +42,11 @@ a:hover {
   position: fixed;
 }
 
+.container {
+	position: absolute;
+	right:-6em;
+}
+
 #menu ul {
   line-height: 1.5em;
 	list-style: none;
@@ -53,14 +55,26 @@ a:hover {
 
 #firstname {
   font-size: 3.5em;
-  letter-spacing: -4px
+  letter-spacing: -5px;
 }
 
 #lastname {
   font-size: 3.5em;
-  letter-spacing: -4px
+  letter-spacing: -5px;
+	margin-top:-0.9em;
 }
 
-#slides {
-  display:none;
+#img-container {
+	max-width:100%;
+}
+
+#myCarousel {
+	position:absolute;
+	left:35em;
+	width:65%;
+	height:auto;
+}
+
+.carousel-control.right, .carousel-control.left {
+	background-image:none;
 }
