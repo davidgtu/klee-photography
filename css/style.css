@@ -41,6 +41,7 @@ a:hover {
   font-size: 11px;
   float: left;
   position: fixed;
+	z-index: 1000;
 }
 
 .container {
