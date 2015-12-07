@@ -11,7 +11,7 @@ html, body {
 	margin:0;
 	padding:0;
 	height:100%;
-	overflow-y: hidden;
+	overflow:hidden;
 }
 
 a:link {
@@ -110,4 +110,36 @@ a:hover {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+img {
+	width:25%;
+	height: auto;
+	padding-right: 2em;
+	position: relative;
+	float:right;
+	top:3em;
+}
+
+.fade {
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade:hover {
+	opacity: 0.5;
+}
+
+
+#unequal {
+	display:inline-block;
+	text-align: center;
+	position:relative;
+	right:15em;
+}
+
+.row {
+	margin-bottom: 2em;
 }
