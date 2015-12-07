@@ -32,7 +32,7 @@ a:hover {
 #menu {
   left: 5em;
   top: 5em;
-  width: 150px;
+  width: 9.375em;
   overflow: fixed;
   margin: 3.750em 0 0px 0px;
   height: 37.500em;
@@ -143,4 +143,10 @@ a:hover {
 
 .row {
 	margin-bottom: 2em;
+}
+
+.contact {
+	position:relative;
+	top:15em;
+	font-size:12px;
 }
