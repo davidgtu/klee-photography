@@ -1,8 +1,8 @@
-$(document).bind('keyup', function(event){
+$(document).bind('keydown', function(event){
   if (event.which == 39){
-    $('.carousel').carousel('next')
+    $('#myCarousel').carousel('next')
   }
   else if(event.which == 37){
-    $('.carousel').carousel('prev')
+    $('#myCarousel').carousel('prev')
   }
 })
