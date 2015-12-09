@@ -30,9 +30,9 @@ a:hover {
 }
 
 #menu {
-  left: 5em;
+	left:5em;
   top: 5em;
-  width: 9.375em;
+  width: 10%;
   overflow: fixed;
   margin: 3.750em 0 0px 0px;
   height: 37.500em;
@@ -58,12 +58,14 @@ a:hover {
 #firstname {
   font-size: 3.5em;
   letter-spacing: -5px;
+	color: #000
 }
 
 #lastname {
   font-size: 3.5em;
   letter-spacing: -5px;
 	margin-top:-0.9em;
+	color: #000
 }
 
 #img-container {
@@ -142,7 +144,7 @@ a:hover {
 }
 
 .row {
-	margin-bottom: 2em;
+	/*margin-bottom: 2em;*/
 }
 
 .contact {
@@ -150,3 +152,29 @@ a:hover {
 	top:15em;
 	font-size:12px;
 }
+
+/*@media only screen and (max-width: 480px) {
+	#firstname, #lastname{
+		font-size: 10em;
+		position:absolute;
+		display:inline-block;
+		text-align: center;
+	}
+
+	#firstname {
+		bottom:0.7em;
+	}
+
+	#lastname {
+		left:10.3em;
+	}
+
+	#myCarousel {
+		position: absolute;
+		left:5em;
+		top:30em;
+		width: 90%;
+		height:auto;
+	}
+
+}*/
